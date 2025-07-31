@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#squareGraphicOutput {
+  font-family: monospace;
+  font-size: 1.2em;
+  color: chocolate;
+  line-height: 1.1;
+}
