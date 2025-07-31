@@ -8,7 +8,7 @@ const squareGraphicOutputShown = document.getElementById("squareGraphicOutput");
 const maximumSquareSide = 20;
 
 buttonGraphicSquare.addEventListener("click", () => {
-  const side = parseFloat(squareSizeInput.value, 0);
+  const side = parseFloat(squareSizeInput.value);
   if (!Number.isInteger(side) || side <= 0) {
     //console.log("Por favor, ingrese un número entero válido");
     h2Anuncio.textContent = "Por favor, ingrese un número entero válido";
@@ -28,7 +28,7 @@ buttonGraphicSquare.addEventListener("click", () => {
 
 squareSizeInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
-    const side = parseFloat(squareSizeInput.value, 0);
+    const side = parseFloat(squareSizeInput.value);
     if (!Number.isInteger(side) || side <= 0) {
       //console.log("Por favor, ingrese un número entero válido");
       h2Anuncio.textContent = "Por favor, ingrese un número entero válido";
