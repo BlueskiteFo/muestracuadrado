@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tu Cuadrado</title>
     <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div>
-      <h1>Pagina para generar un cuadrado</h1>
+      <h1>Pagina para generar un cuadrado - By: Fo</h1>
       <input
         type="number"
         name="size"
         id="squareSize"
-        placeholder="Tamaño del cuadrado"
+        placeholder="Lado del cuadrado (≤20)"
       />
       <button id="squareButton">Graficar</button>
       <h2 id="anuncioErrorSquare"></h2>
-      <pre id="squareGraphicOutput"></pre>
+      <div class="squareContainer">
+        <pre id="squareGraphicOutput"></pre>
+      </div>
     </div>
     <script type="module" src="./script.js"></script>
   </body>
